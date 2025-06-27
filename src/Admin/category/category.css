@@ -1,0 +1,63 @@
+.add-category-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #e8f0fe, #ffffff);
+}
+
+.add-category-container h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.category-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-form label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.category-form input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.category-form button {
+  padding: 12px;
+  background-color: #00509d;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.category-form button:hover {
+  background-color: #003f7d;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}

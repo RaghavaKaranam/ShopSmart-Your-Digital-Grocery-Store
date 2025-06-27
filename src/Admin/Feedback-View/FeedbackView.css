@@ -1,0 +1,46 @@
+.feedback-admin-container {
+  padding: 20px 40px;
+  background-color: #f4f4f4;
+  min-height: 80vh;
+}
+
+.feedback-admin-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.feedback-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.feedback-table th,
+.feedback-table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.feedback-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.feedback-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.delete-btn {
+  padding: 6px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
