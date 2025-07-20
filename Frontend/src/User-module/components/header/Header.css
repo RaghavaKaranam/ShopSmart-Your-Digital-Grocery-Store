@@ -1,0 +1,168 @@
+/* Header styles */
+.Header {
+  background-color: aliceblue;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+}
+
+#Title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.slogan {
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+  margin: 0;
+}
+
+/* Right side buttons */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.action-btn {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: #0056b3;
+}
+
+.cart-icon {
+  color: #333;
+  text-decoration: none;
+}
+
+.cart-icon:hover {
+  color: #007bff;
+}
+
+/* Navigation menu */
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  background-color: #fff;
+  padding: 10px 0;
+  gap: 15px;
+  margin: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  padding: 5px 12px;
+  transition: 0.3s ease;
+  border-radius: 20px;
+}
+
+.menu a:hover {
+  background-color: rgb(39, 114, 164);
+  color: white;
+}
+
+/* 🔽 User dropdown (profile icon + logout) */
+.user-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.user-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #007bff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.user-icon:hover {
+  color: #0056b3;
+}
+
+.user-letter {
+  margin-left: 6px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Dropdown for logout */
+.dropdown-menu {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  z-index: 10;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  min-width: 120px;
+  text-align: center;
+}
+
+.dropdown-menu span {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.dropdown-menu button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #ef4444;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu button:hover {
+  background-color: #c53030;
+}
+/* In your Header.css (only if needed for the close icon) */
+.dropdown-menu svg {
+  color: #888;
+}
+
+.dropdown-menu svg:hover {
+  color: #e60000;
+}
